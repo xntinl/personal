@@ -12,8 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <img className={styles.user} src={`/oscar.jpg`}/>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">javier</a>
+          Oscar Javier Campos Herrera
         </h1>
       </main>
 
