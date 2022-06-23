@@ -64,3 +64,17 @@
   justify-content: center;
   align-items: center;
 }
+.technologies{
+color: white;
+}
+.technologies ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.technologies li{
+ list-style-type: none;
+width: calc((100% - 20px) / 3);
+}

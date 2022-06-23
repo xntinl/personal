@@ -19,10 +19,11 @@ export default function Home() {
                         <li>C</li>
                     </ul>
                 </nav>
+
                 <section className={styles.main_content}>
                     <img className={styles.user} src={`/oscar.jpg`}/>
                     <h1 className={styles.title}>
-                        Developer
+                        Oscar Javier Campos Herrera
                     </h1>
                     <ul className={styles.social_links}>
                         <li>
@@ -41,6 +42,21 @@ export default function Home() {
                             </a>
                         </li>
                     </ul>
+                    <di className={styles.technologies}>
+                        <h2>Technologies</h2>
+                        <ul>
+                            <li>Java - Spring Boot</li>
+                            <li>Python</li>
+                            <li>Nodejs, Go</li>
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>AWS</li>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>Linux</li>
+                            <li>Nginx</li>
+                        </ul>
+                    </di>
                 </section>
             </main>
 
