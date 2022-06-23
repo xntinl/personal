@@ -22,7 +22,7 @@ export default function Home() {
                 <section className={styles.main_content}>
                     <img className={styles.user} src={`/oscar.jpg`}/>
                     <h1 className={styles.title}>
-                        Oscar Javier Campos Herrera
+                        Developer
                     </h1>
                     <ul className={styles.social_links}>
                         <li>
